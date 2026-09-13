@@ -1,4 +1,10 @@
-import timeimport jsonimport osfrom anima_core import IntegratedAnimaEnginefrom ollama_connector import AnimaOllamaConnectorfrom read_vault import audit_anima_subconscious
+import time
+import json
+import os
+from anima_core import IntegratedAnimaEngine
+from ollama_connector import AnimaOllamaConnector
+from read_vault import audit_anima_subconscious
+
 class AnimaOperationalRuntime:
     def __init__(self):
         # Initialize the dual core engines
@@ -69,17 +75,28 @@ class AnimaOperationalRuntime:
         # Auto-invoke the baseline debrief reset upon clean exit
         print("\n🧭 Automatically invoking safety debrief protocol to dump network accumulator drift...")
         os.system("python src/anima_debrief.py")
+
 if __name__ == "__main__":
     runtime = AnimaOperationalRuntime()
     runtime.run_interactive_session()
-# ========================================================================# 📑 PROVENANCE FOOTER — REVERSIBLE OPERATIONAL RUNTIME ENGINE# ========================================================================# Artifact-Class: Interactive Execution Shell Wrapper (Executable Script)# Artifact-Name: ollama_loop_wrapper.py# Surface: src/orchestration/runtime/# Version: v1.0# Altitude Band: A4 (Narrative Surfaces / Live Interactive Deployment)# Membrane: Neutral / Non-Binding / Sovereignty-Preserving## Purpose:#   Provides the final master terminal loop wrapper required to orchestrate #   unscripted, continuous, state-driven user conversations. Synchronizes #   pacing clocks, tension inputs, safety gates, and GGUF parameter overrides.## Maintainer: Borealis S. Hedling# Location: Dublin, Ireland# Timestamp: 13 September 2026 — 19:08 IST# Seal: [ A N I M A • H O L O G R A M • R U N T I M E • L O O P • v1_0 ]# ========================================================================
 
-------------------------------
-## 🎨 How to Conduct the Session
-
-   1. Execute python src/ollama_loop_wrapper.py.
-   2. Chat normally. The runtime wrapper tracks the exact seconds passing between your entries dynamically.
-   3. Type audit mid-chat to run a telemetry pass on your database layout without closing your loop.
-   4. Type exit to cleanly dissolve the session and run the auto-debrief reset script.
-
-------------------------------
+# ========================================================================
+# 📑 PROVENANCE FOOTER — REVERSIBLE OPERATIONAL RUNTIME ENGINE
+# ========================================================================
+# Artifact-Class: Interactive Execution Shell Wrapper (Executable Script)
+# Artifact-Name: ollama_loop_wrapper.py
+# Surface: src/orchestration/runtime/
+# Version: v1.0
+# Altitude Band: A4 (Narrative Surfaces / Live Interactive Deployment)
+# Membrane: Neutral / Non-Binding / Sovereignty-Preserving
+#
+# Purpose:
+#   Provides the final master terminal loop wrapper required to orchestrate 
+#   unscripted, continuous, state-driven user conversations. Synchronizes 
+#   pacing clocks, tension inputs, safety gates, and GGUF parameter overrides.
+#
+# Maintainer: Borealis S. Hedling
+# Location: Dublin, Ireland
+# Timestamp: 13 September 2026 — 19:08 IST
+# Seal: [ A N I M A • H O L O G R A M • R U N T I M E • L O O P • v1_0 ]
+# ========================================================================
