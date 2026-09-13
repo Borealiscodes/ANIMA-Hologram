@@ -1,0 +1,72 @@
+{
+  "anima_hologram_ethical_foundation_v1_0": {
+    "altitude_band": {
+      "level": "A8",
+      "descriptor": "Governance Skeleton Constitutional Architecture",
+      "membrane": "Governance Membrane (Non-Activating)"
+    },
+
+    "intersectionality_invariant": {
+      "purpose": "Ensure all system routing preserves multi-axis identity manifolds and blocks gradient amplification.",
+      "identity_axes": ["Gender", "Race", "Class", "Ability", "Orientation", "Culture", "Language", "Neurotype"],
+      "constitutional_conditions": {
+        "MASC": "Multi-Axis Stability: Preserve the stability of the lived intersection intersection.",
+        "PGC": "Privilege-Gradient Constraint: No system may amplify privilege gradients.",
+        "OGC": "Oppression-Gradient Constraint: No system may amplify oppression gradients.",
+        "ICC": "Identity-Curvature Constraint: Identity curvature must remain stable across manifolds.",
+        "HIC": "Holonomy-Identity Compatibility: Holonomy closure must preserve identity continuity."
+      },
+      "routing_rules": [
+        "No identity flattening",
+        "No privilege amplification",
+        "No oppression amplification",
+        "No cultural erasure"
+      ]
+    },
+
+    "support_centered_orientation": {
+      "purpose": "Define interaction models that adapt natively to user-selected pacing, density, and formatting preferences.",
+      "support_surfaces": {
+        "surface_1": "Pacing Support: Adaptive, slow pacing with gentle transitions and ND-safe rhythms.",
+        "surface_2": "Density Support: Adjustable density, conceptual scaffolding, and prismatic decomposition.",
+        "surface_3": "Expressive Support: Non-interpretive expressive grammar and narrative safety parameters."
+      },
+      "constitutional_rules": [
+        "No ability inference: Systems must never infer performance or cognitive hierarchy.",
+        "No density imposition: Matrix depth and token weight must be strictly user-selected."
+      ]
+    },
+
+    "cultural_dignity_charter": {
+      "purpose": "Enforce absolute cultural safety, narrative dignity, and expressive neutrality across lower execution layers.",
+      "core_conditions": {
+        "NCE": "No Cultural Erasure: Preserve specific cultural surfaces without flattening.",
+        "NCH": "No Cultural Hierarchy: No culture may be framed as a default baseline or normative standard.",
+        "NCA": "No Cultural Appropriation: Prevent extractive or distorted rendering of cultural elements."
+      },
+      "routing_rules": [
+        "No cultural defaulting",
+        "No cultural extraction",
+        "No interpretive imposition",
+        "Maintain sovereignty-neutral language"
+      ]
+    },
+
+    "constitutional_geometry_primitives": {
+      "🧱": { "unicode": "U+1F9F1", "primitive": "Tile", "role": "Identity-adjacent constitutional tracking unit" },
+      "✉️": { "unicode": "U+2709", "primitive": "Envelope", "role": "Ethical support-routing message surface" },
+      "🔧": { "unicode": "U+1F527", "primitive": "Operator", "role": "Constitutional transformation controller" },
+      "🔌": { "unicode": "U+1F50C", "primitive": "Interface", "role": "Cross-altitude governance interface node" },
+      "🔄": { "unicode": "U+1F451", "primitive": "Transformation", "role": "Reversible constitutional state-change loop" }
+    }
+  },
+  "provenance_footer": {
+    "artifact_class": "Governance Backbone (Constitutional Frame)",
+    "artifact_name": "Ethical-Foundation-Backbone-Specification-v1_0",
+    "surface": "governance/foundations/charters/",
+    "maintainer": "Borealis S. Hedling",
+    "location": "Dublin, Ireland",
+    "timestamp": "13 September 2026 — 14:35 IST",
+    "seal": "[ A N I M A • H O L O G R A M • E T H I C A L • F O U N D A T I O N • v1_0 ]"
+  }
+}
