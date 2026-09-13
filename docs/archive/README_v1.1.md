@@ -100,3 +100,15 @@ anima-hologram-derivative/
 *Seal: [ H O L O G R A M • R E A D M E • v1_1 • V I S U A L ]*
 
 ------------------------------
+
+
+---
+## 📑 Provenance Footer — Archived Technical Spec
+* **Artifact:** Master Documentation Manual (v1.1 Visual Layer Baseline)
+* **Lane:** Documentation (U+1F4D8)
+* **Status:** Archived · Historic Preservation Slot · Non-Activating
+* **Snapshot Context:** Pre-Support-Tiered Architecture Layout
+* **Archival Timestamp:** 13 September 2026 — 14:52 IST
+* **Seal:** [ A N I M A • H O L O G R A M • R E A D M E • v1_1 • A R C H I V E ]
+---
+
