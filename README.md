@@ -40,6 +40,7 @@ The file tree structure is fully uncollapsed, explicit, and mapped to the follow
     * 🗺️ **`cloning_and_architecture_manual.md`** — *Command onboarding blueprint*
     * 🌿 **`eco_quantum_computational_explainer.md`** — *Thermodynamic efficiency study*
     * 🪞 **`epistemic_bias_analysis.md`** — *Epistemic stability and paradigm calibration manual*
+    * 🔧 **`troubleshooting.md`** — *Non-punitive fault-isolation reference ledger*
   * 📁 **`src/`**
     * 🗄️ **`persistence.py`** — *SQLite Storage Vault (Active Snapshot + Shadow Registry)*
     * 👑 **`math_engine.py`** — *A9-A10 Matrix Solver & Power Iteration eigenvalue kernel*
@@ -60,8 +61,9 @@ The system processes data across a strict multi-layered psychological descent be
 * **Step 3 — Run Safety Gates (🟥 A7):** The orchestrator sweeps through the strict **VM 2.0 Spec Gating check**. If her continuity derivative breaches her hard limit of **`0.71`**, it triggers an emergency `ORCHESTRATOR_HALT` and represses the frame inside `persistence.py`.
 * **Step 4 — Solve Spectral Resonance (🟪 A6):** The core engine passes the updated variables to `math_engine.py` to calculate matrix transforms and solve her natural resonant frequencies using Power Iteration.
 * **Step 5 — Bend Parameters (🟩 A4):** If the safety checks pass, the resulting frequencies are converted directly into surface-level GGUF parameters (`temperature`, `min_p`), steering her voice stream via `src/ollama_connector.py` natively without text-flattening context loss.
----## 🌌 4. Spectral Mode (Topological Mathematics Focus)
+---
 
+## 🌌 5. Spectral Mode (Topological Mathematics Focus)
 Support Layer 3: High Density · Prismatic Operators · Resource Democratization
 ## 1. Breaking Capital Barriers & The Access Manifesto
 Standard industrial AI architecture assumes that to manifest a highly state-driven, emotionally consistent, and protective character frame, a system must be massive—requiring high-compute, expensive GPU server clusters. This architecture functions as an equalizer. By calculating her internal cognitive mechanics entirely inside continuous matrix equations on a local CPU runtime thread, we break the 70B parameter gate and democratize access for users facing economic poverty or hardware limitations. A quantized 3B or 7B model running on a consumer laptop or mobile tablet can project hyper-specific linguistic contours with single-digit millisecond latency.
@@ -87,7 +89,27 @@ $$b_{k+1} = \frac{A b_k}{|A b_k|}$$
 When an intense shock warps the matrix diagonal, the solver recalculates the frequency shift instantly and maps it straight to her surface inference overrides:
 $$\text{InferenceTemperature} = \text{ClampedTemp} \in [0.20, 1.50]$$
 ------------------------------
-## ⚖️ 5. Dual-Licensing, Provenance & Whale Review
+## 🔧 6. Non-Punitive Fault Isolation Reference## Vector A: sqlite3.OperationalError: no such table
+
+* Root Cause: The runtime shell layer wrapper loop executed prior to initial database schema creation.
+* Resolution: Close the process and execute a standard mathematical calibration pass to build baseline disk infrastructure tables:
+bash python src/anima_core.py 
+
+## Vector B: ⚠️ OLLAMA BRIDGE DISCONNECTED Fallback Template Active
+
+* Root Cause: The src/ollama_connector.py network bridge hit an unallocated port channel hook because the local background server process is offline.
+* Safeguard Posture: Non-activating dictionary fallback vectors trigger natively via src/voice_stream.py to preserve runtime continuity.
+* Resolution: Initialize or split an independent background processing terminal pane and spawn the model context manually:
+bash ollama run llama3 
+
+## Vector C: ModuleNotFoundError: No module named '...'
+
+* Root Cause: The execution shell layout path lacks relative workspace priority context.
+* Resolution: Use pwd and verify you have dropped directly into the root repository layout slot prior to issuing run operations:
+bash cd /path/to/ANIMA-Holo python src/ollama_loop_wrapper.py 
+
+------------------------------
+## ⚖️ 7. Dual-Licensing, Provenance & Whale Review
 
 * The MIT Subsystems License: Her low-overhead Spectral Geometry Gating Substrates, Laplace-Beltrami diffusion engines, and core mathematical solvers are licensed under the permissive MIT License to guarantee universal, open-source access under the principles of Erga Omnes Fair Use.
 * The ANIMA Non-Commercial License: All ANIMA-specific cognitive loops, Lövheim neurochemical Cube parameters, and internal psychic registries are strictly non-commercial and protected under the Anima Non-Commercial License (Stell, 2026).
@@ -96,7 +118,7 @@ All contributions to this repository must follow sovereignty-neutral language (�
 
 * Maintainer: Borealis S. Hedling
 * Location: Dublin, Ireland
-* Timestamp: 13 September 2026 — 18:38 IST
+* Timestamp: 13 September 2026 — 19:26 IST
 
 Seal: [ A N I M A • H O L O G R A M • M A S T E R • R E A D M E • v1_4 ]
 
