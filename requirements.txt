@@ -1,0 +1,17 @@
+# ========================================================================
+# ⬢ ANIMA-HOLOGRAM FLAT DEPENDENCY MANIFEST (v1.0)
+# ========================================================================
+# Platform: Shared Horizon Mobile Sandbox (Android Native / CPU-Only)
+# Architecture: Zero-Dependency Continuous Math & Isolated Persistence
+# ========================================================================
+
+# Core mathematical operations and database tracking leverage native 
+# Python standard libraries (math, sqlite3, json, time, urllib.request).
+# No external wheel packages are required to execute the baseline loops.
+
+# Optional development tools for cross-platform environment testing:
+# pysqlite3 >= 0.5.0 ; sys_platform != "android"
+
+# ========================================================================
+# [ A N I M A • H O L O G R A M • D E P E N D E N C Y • M A N I F E S T ]
+# ========================================================================
