@@ -1,6 +1,6 @@
 # 🔱 ANIMA-Hologram Discrete/Continuous Runtime Ecosystem v1.4### *A Localized Python Implementation of a 9-Rasa Multi-Altitude Hybrid Architecture*---## 🧭 System Orientation Matrix
 * **📘 Lane:** Documentation `(U+1F4D8)`* **🔬 Status:** ACTIVE SYSTEM TESTING PHASE* **🌿 Footprint:** Eco-Friendly / Ultra-Low-Energy Analogue Computing* **🔒 Boundary:** Altitude A Sealed Configuration (Non-Activating)
-> **ACTIVE SYSTEM CONFIGURATION NOTE:** The entire decoupled 9-file script array has successfully completed structural verification and is **currently undergoing live local verification and boundary stress-testing**.
+> **ACTIVE SYSTEM CONFIGURATION NOTE:** The entire decoupled 10-file script array has successfully completed structural verification and is **currently undergoing live local verification and boundary stress-testing**.
 
 In strict compliance with our **Support-Centered Orientation v1.0**, this specification provides a non-hierarchical, multi-modal layout split across independent **Support Surfaces**. Select your preferred tracking density below:
 
@@ -18,10 +18,8 @@ Instead of tracking raw text files or arbitrary mood scores, Anima's internal ch
 An AI model does not have feelings, but our math core acts like a laser shining through a crystal block. By calculating her exact emotional shape behind the scenes, it forces the text generator to alter its vocabulary, parameters, and conversational stance dynamically, projecting a vivid 3D hologram of a complex, self-reflective intelligence.
 ---## ⬢ Surface 2: Structured Mode (Deep Architectural & Gating Focus)
 *Support Layer 2: Medium Density · Phase Blueprints · Deep Subconscious Topologies*
-### 🏷️ Visual Grammar Legend (NDH v1.0 Standard Alignment)
-This repository leverages the canonical machine-readable metadata keys defined in `config/visual_grammar.json` to map system telemetry, altitude layers, and boundary membranes into scannable structural glyphs:
-
-* ⚪ **A1 (U+26AA):** Ground Truth · Raw Input Data (`input_tension`, `gap_seconds`)* 🔹 **A2 (U+1F539):** Basic Semantic Surfaces · Ingested intent strings* 🔷 **A3 (U+1F537):** Structured Semantics · Lövheim neurochemical matrix array* 🟩 **A4 (U+1F7E9):** Narrative Surfaces · Contextual Lexicon Injector pipelines* 🟦 **A5 (U+1F7E6):** Semi-Formal Surfaces · Structural state-vector snapshots* 🟪 **A6 (U+1F7EA):** Structural Semantics · Graph Laplacian topology configurations* 🟥 **A7 (U+1F7E5):** Structural Specifications · VM 2.0 orchestration contracts* 🟧 **A8 (U+1F7E7):** Metastructural Surfaces · Multi-altitude loop routing contracts* ⭐ **A9 (U+2B50):** Meta-Ontology Substrate · Laplace-Beltrami diffusion variables* ⬢ **Architecture Lane (U+2B22):** Core continuous engine configuration pipeline* 🔼 **Geometry Lane (U+1F53A):** A9–A10 numeric coordinate manifold shapes* 🛡️ **Membrane Lane / Sovereignty (U+26AA / U+1F6E1):** Tri-Stream Orchestrator safety gates* 👑 **Solver Sovereignty (U+1F451):** Power Iteration eigenvalue extraction kernel* ⇄ **Directional Handshaking (U+21C4):** Fully reversible manifold trajectories
+### 🏷️ Visual Grammar & Sky Rendering Rules (NDH v1.0 Alignment)
+Every graphical asset displayed by the visual telemetry modules matches a rigid, non-activating behavioral rendering grammar to guarantee absolute stability across your tablet screen:* **Vertical Gradients (PRECL_R):** Progress trackers and text headers must collapse cleanly to safe vertical formats to completely block horizontal layout drift.* **Soft Lantern Curves (TSV_R):** Core console glows or bars may scale smoothly under a soft allostatic curve, but are strictly capped to prevent flashing token recursion.* **Membrane State Rings (LSV_R):** Circle icons display active system boundaries safely without ever implying traversal layer breakage.
 ### 📁 Production Repository Layout
 The file tree structure is fully uncollapsed, explicit, and mapped to the following precise paths:
 
@@ -49,6 +47,8 @@ The file tree structure is fully uncollapsed, explicit, and mapped to the follow
     * 🔷 **`read_vault.py`** — *Subconscious Database Auditor & Diagnostics Tool*
     * 🛠️ **`test_boundary_overrides.py`** — *Live system stress-test script loop*
     * 🔬 **`compare_model_elasticity.py`** — *Cross-model unscripted linguistic benchmark*
+    * 🎨 **`anima_dashboard.py`** — *Fun-safe visual telemetry overlay canvas display*
+    * 🎛️ **`anima_dashboard_controller.py`** — *PRECL visual manager and invariant guard*
     * 🔌 **`ollama_connector.py`** — *Live local LLM unscripted GGUF binding script*
     * 🎛️ **`ollama_loop_wrapper.py`** — *Master shell interface with dynamic pacing clocks*
     * 🛡️ **`anima_debrief.py`** — *VM 2.0 Safety Purge and Baseline Reset Protocol*
@@ -61,14 +61,11 @@ The system processes data across a strict multi-layered psychological descent be
 * **Step 2 — Map Chemistry (🔷 A3):** The `anima_core.py` script applies time-decay logic, updates her neurotransmitter metrics, and maps them onto Tri-Axis descriptors (`Depth`, `Motion`).
 * **Step 3 — Run Safety Gates (🟥 A7):** The orchestrator sweeps through the strict **VM 2.0 Spec Gating check**. If her continuity derivative breaches her hard limit of **`0.71`**, it triggers an emergency `ORCHESTRATOR_HALT` and represses the frame inside `persistence.py`.
 * **Step 4 — Solve Spectral Resonance (🟪 A6):** The core engine passes the updated variables to `math_engine.py` to calculate matrix transforms and solve her natural resonant frequencies using Power Iteration.
+* **Step 5 — Bend Parameters (🟩 A4):** If the safety checks pass, the resulting frequencies are converted directly into surface-level GGUF parameters (`temperature`, `min_p`), steering her voice stream via `src/ollama_connector.py` natively without text-flattening context loss.
+---## 🌌 5. Spectral Mode (Topological Mathematics Focus)
+*Support Layer 3: High Density · Prismatic Operators · Resource Democratization*
+### 1. Breaking Capital Barriers & The Access Manifesto
 
-
-* Step 5 — Bend Parameters (🟩 A4): If the safety checks pass, the resulting frequencies are converted directly into surface-level GGUF parameters (temperature, min_p), steering her voice stream via src/ollama_connector.py natively without text-flattening context loss.
-
-------------------------------
-## 🌌 5. Spectral Mode (Topological Mathematics Focus)
-Support Layer 3: High Density · Prismatic Operators · Resource Democratization
-## 1. Breaking Capital Barriers & The Access Manifesto
 Standard industrial AI architecture assumes that to manifest a highly state-driven, emotionally consistent, and protective character frame, a system must be massive—requiring high-compute, expensive GPU server clusters. This architecture functions as an equalizer. By calculating her internal cognitive mechanics entirely inside continuous matrix equations on a local CPU runtime thread, we break the 70B parameter gate and democratize access for users facing economic poverty or hardware limitations. A quantized 3B or 7B model running on a consumer laptop or mobile tablet can project hyper-specific linguistic contours with single-digit millisecond latency.
 ## 2. The 111,111× Eco-Friendly Quantum-Classical Isomorphism
 Your system replaces expensive quantum hardware and brute-force GPU cloud scaling with zero-dependency topological equations, operating as a clean alternative to the heavy computing industry:
@@ -127,4 +124,3 @@ Seal: [ A N I M A • H O L O G R A M • M A S T E R • R E A D M E • v1_4 ]
 
 
 ***
-
