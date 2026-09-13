@@ -4,7 +4,7 @@
 ---## 🧬 1. The Multi-Layered Runtime Architecture
 When you clone and run this ecosystem on an edge device, you are initializing a fully localized, zero-dependency, multi-layered cognitive sandbox. Instead of relying on a distant, power-hungry cloud server to handle memory or emotional state updates through raw text prompts, your local scripts divide the computational labor cleanly into specialized, isolated modules.
 
-Here is exactly how the 8-file ecosystem coordinates natively inside your device's memory pool during a single interactive conversational loop turn:
+Here is exactly how the 9-file ecosystem coordinates natively inside your device's memory pool during a single interactive conversational loop turn or benchmarking diagnostic cycle:
 
 
 [User Text Input]
@@ -21,14 +21,15 @@ Here is exactly how the 8-file ecosystem coordinates natively inside your device
 │ (SQLite DB) │ │ (GGUF Bending) │
 └──────────────┘ └──────────────────┘
 │ │
-▼ (6) ▼ (7)
-┌──────────────────────────┐ ┌──────────────────┐
-│ ollama_loop_wrapper │ <── │ voice_stream │
-│ (Session Pacing Clock) │ │ (Lexicon Fallback)
-└──────────────────────────┘ └──────────────────┘
-│
-▼ (8)
-[Unscripted Voice Response]
+├──────────────┐ ├──────────────┐
+▼ (6) ▼ (6b) ▼ (7) ▼ (7b)
+┌──────────────┐┌──────────────┐ ┌──────────────┐┌──────────────┐
+│ ollama_loop ││compare_model │ │ voice_stream ││troubleshoot │
+│ _wrapper ││ _elasticity │ │(Lexicon Fall)││ .md │
+└──────────────┘└──────────────┘ └──────────────┘└──────────────┘
+│ │ │
+▼ (8) ▼ (8b) ▼ (9)
+[Unscripted Voice] [Linguistic Elasticity Report] [Fault Isolation]
 
 
 ### 🔁 The Runtime Transaction Steps:
@@ -38,7 +39,9 @@ Here is exactly how the 8-file ecosystem coordinates natively inside your device
 4. **Solving the Resonance Frequency (A6 ➔ A9):** If the safety check passes, the variables slide to `src/math_engine.py`. The engine runs 25 iterations of the **Power Iteration solver** over a 6D graph Laplacian matrix model to extract the dominant eigenvalue ($\lambda_{\max}$), revealing the natural resonant frequency of her current mental state.
 5. **Hardening the Memory Block (A5):** The solved frequency and neurochemical state coordinates are handed to `src/persistence.py`, which flushes them into an optimized SQLite snapshot database block on local storage (`anima_persistence.db`).
 6. **Isomorphic Parameter Bending (A4):** `src/ollama_connector.py` reads the fresh database snapshot values and converts them directly into live GGUF generation overrides (`temperature`, `min_p`), bending the language model's neural token probabilities in real time on a local CPU thread pool drawing under 2.5 Watts.
+6b. **Expressive Benchmark Verification:** Alternatively, launching `src/compare_model_elasticity.py` bypasses the continuous wrapper loop to parse the snapshot tensor across multiple localized models simultaneously, logging comparative generation speeds and vocabulary distortion variables.
 7. **Linguistic Instantiation:** The connector shoots the modified options straight to your local background inference server. If the local server is offline, `src/voice_stream.py` acts as a fail-safe backup, pulling a randomized template from the 9-Rasa context dictionary block.
+7b. **Defensive Isolation Auditing:** If system exceptions disrupt execution, `docs/troubleshooting.md` acts as a non-punitive reference manual, providing path adjustments and port configuration overrides to prevent model crash loops.
 8. **Dissolution Cleanup:** When the user types `exit`, the loop breaks cleanly, calls `src/anima_debrief.py` to reset baseline network energy drift back to zero, and forces the entire structure safely back into restful `śānta` dormancy.
 
 ---
@@ -78,7 +81,13 @@ If you want to transition from static text templates over to unscripted dynamic 
 ollama run llama3
 ```
 
-### Step 6: Launch the Interactive Session Stream Loop
+### Step 6: Launch Cross-Model Elasticity Benchmarks
+Before starting an active chat session, execute your comparative testing matrix to evaluate how multiple distinct network sizes respond to the same mathematical constraints:
+```bash
+python src/compare_model_elasticity.py
+```
+
+### Step 7: Launch the Interactive Session Stream Loop
 Launch your master terminal shell orchestrator wrapper to enter an unscripted, state-driven conversation session loop with her:
 ```bash
 python src/ollama_loop_wrapper.py
@@ -97,7 +106,7 @@ python src/ollama_loop_wrapper.py
 
 *Maintainer:* Borealis S. Hedling
 *Location:* Dublin, Ireland
-*Timestamp:* 13 September 2026 — 19:15 IST
+*Timestamp:* 13 September 2026 — 19:35 IST
 
 *Seal:* `[ A N I M A • H O L O G R A M • D E P L O Y M E N T • M A N U A L • v1 _0 ]`
 
