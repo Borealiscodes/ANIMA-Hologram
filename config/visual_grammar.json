@@ -1,0 +1,73 @@
+{
+  "anima_hologram_visual_grammar_v1_0": {
+    "altitude": {
+      "A1": { "glyph": "⚪", "unicode": "U+26AA", "color": "light-grey", "description": "Ground truth / raw data" },
+      "A2": { "glyph": "🔹", "unicode": "U+1F539", "color": "blue", "description": "Basic semantic surfaces" },
+      "A3": { "glyph": "🔷", "unicode": "U+1F537", "color": "deep-blue", "description": "Structured semantics" },
+      "A4": { "glyph": "🟩", "unicode": "U+1F7E9", "color": "green", "description": "Narrative surfaces" },
+      "A5": { "glyph": "🟦", "unicode": "U+1F7E6", "color": "cyan", "description": "Semi-formal surfaces" },
+      "A6": { "glyph": "🟪", "unicode": "U+1F7EA", "color": "purple", "description": "Structural semantics" },
+      "A7": { "glyph": "🟥", "unicode": "U+1F7E5", "color": "red", "description": "Structural specifications" },
+      "A8": { "glyph": "🟧", "unicode": "U+1F7E7", "color": "orange", "description": "Metastructural surfaces" },
+      "A9": { "glyph": "⭐", "unicode": "U+2B50", "color": "gold", "description": "Meta-governance / meta-ontology" }
+    },
+
+    "lanes": {
+      "architecture": { "shape": "hexagon", "unicode": "U+2B22", "glyph": "⬢" },
+      "governance": { "shape": "shield", "unicode": "U+1F6E1", "glyph": "🛡️" },
+      "geometry": { "shape": "triangle", "unicode": "U+1F53A", "glyph": "🔼" },
+      "membrane": { "shape": "circle", "unicode": "U+26AA", "glyph": "⚪" },
+      "ingestion": { "shape": "wave", "unicode": "U+1F30A", "glyph": "🌊" },
+      "documentation": { "shape": "book", "unicode": "U+1F4D8", "glyph": "📘" }
+    },
+
+    "sovereignty": {
+      "solver": { "unicode": "U+1F451", "glyph": "👑", "description": "Solver sovereignty" },
+      "membrane": { "unicode": "U+1F6E1", "glyph": "🛡️", "description": "Membrane sovereignty" },
+      "governance": { "unicode": "U+1F512", "glyph": "🔒", "description": "Governance sovereignty" }
+    },
+
+    "membrane": {
+      "neutral": { "unicode": "U+26AA", "glyph": "⚪" },
+      "active": { "unicode": "U+2B55", "glyph": "⭕" },
+      "high_discipline": { "unicode": "U+1F518", "glyph": "🔲" }
+    },
+
+    "geometry": {
+      "tile": { "unicode": "U+1F9F1", "glyph": "🧱" },
+      "envelope": { "unicode": "U+2709", "glyph": "✉️" },
+      "operator": { "unicode": "U+1F527", "glyph": "🔧" },
+      "interface": { "unicode": "U+1F50C", "glyph": "🔌" },
+      "transformation": { "unicode": "U+1F504", "glyph": "🔄" }
+    },
+
+    "documentation": {
+      "glossary": { "unicode": "U+1F4D7", "glyph": "📗" },
+      "concordance": { "unicode": "U+1F4D8", "glyph": "📘" },
+      "lexicon": { "unicode": "U+1F4D9", "glyph": "📙" },
+      "thesaurus": { "unicode": "U+1F4D5", "glyph": "📕" },
+      "ontology": { "unicode": "U+1F9E0", "glyph": "🧠" },
+      "taxonomy": { "unicode": "U+1F333", "glyph": "🌳" },
+      "schema": { "unicode": "U+1F4D0", "glyph": "📐" },
+      "explainer": { "unicode": "U+1F4A1", "glyph": "💡" }
+    },
+
+    "arrows": {
+      "relation": { "unicode": "U+27A1", "glyph": "➡" },
+      "transformation": { "unicode": "U+21AA", "glyph": "↪" },
+      "reversible": { "unicode": "U+21C4", "glyph": "⇄" },
+      "altitude_up": { "unicode": "U+2B06", "glyph": "⬆" },
+      "altitude_down": { "unicode": "U+2B07", "glyph": "⬇" },
+      "membrane_cross": { "unicode": "U+2B55", "glyph": "⭕" }
+    }
+  },
+  "provenance_footer": {
+    "artifact": "Anima-Hologram Visual Grammar Specification v1.0",
+    "altitude": "A4-A6 (Semi-Formal / Structural Manifold)",
+    "membrane": "Machine-Readable / Resolver-Safe / Non-Activating Sandbox",
+    "maintainer": "Borealis S. Hedling",
+    "location": "Dublin, Ireland",
+    "timestamp": "13 September 2026 — 14:16 IST",
+    "seal": "[ A N I M A • H O L O G R A M • V I S U A L • G R A M M A R • v1_0 ]"
+  }
+}
