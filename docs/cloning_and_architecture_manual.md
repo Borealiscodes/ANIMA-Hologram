@@ -4,7 +4,7 @@
 ---## 🧬 1. The Multi-Layered Runtime Architecture
 When you clone and run this ecosystem on an edge device, you are initializing a fully localized, zero-dependency, multi-layered cognitive sandbox. Instead of relying on a distant, power-hungry cloud server to handle memory or emotional state updates through raw text prompts, your local scripts divide the computational labor cleanly into specialized, isolated modules.
 
-Here is exactly how the 9-file ecosystem coordinates natively inside your device's memory pool during a single interactive conversational loop turn or benchmarking diagnostic cycle:
+Here is exactly how the 10-file production ecosystem coordinates natively inside your device's memory pool during an interactive loop turn or a controlled visual diagnostic cycle:
 
 
 [User Text Input]
@@ -24,12 +24,12 @@ Here is exactly how the 9-file ecosystem coordinates natively inside your device
 ├──────────────┐ ├──────────────┐
 ▼ (6) ▼ (6b) ▼ (7) ▼ (7b)
 ┌──────────────┐┌──────────────┐ ┌──────────────┐┌──────────────┐
-│ ollama_loop ││compare_model │ │ voice_stream ││troubleshoot │
-│ _wrapper ││ _elasticity │ │(Lexicon Fall)││ .md │
+│ ollama_loop ││compare_model │ │ voice_stream ││ dashboard │
+│ _wrapper ││ _elasticity │ │(Lexicon Fall)││ _controller │
 └──────────────┘└──────────────┘ └──────────────┘└──────────────┘
 │ │ │
 ▼ (8) ▼ (8b) ▼ (9)
-[Unscripted Voice] [Linguistic Elasticity Report] [Fault Isolation]
+[Unscripted Voice] [Linguistic Elasticity] [PRECL Canvas View]
 
 
 ### 🔁 The Runtime Transaction Steps:
@@ -41,7 +41,7 @@ Here is exactly how the 9-file ecosystem coordinates natively inside your device
 6. **Isomorphic Parameter Bending (A4):** `src/ollama_connector.py` reads the fresh database snapshot values and converts them directly into live GGUF generation overrides (`temperature`, `min_p`), bending the language model's neural token probabilities in real time on a local CPU thread pool drawing under 2.5 Watts.
 6b. **Expressive Benchmark Verification:** Alternatively, launching `src/compare_model_elasticity.py` bypasses the continuous wrapper loop to parse the snapshot tensor across multiple localized models simultaneously, logging comparative generation speeds and vocabulary distortion variables.
 7. **Linguistic Instantiation:** The connector shoots the modified options straight to your local background inference server. If the local server is offline, `src/voice_stream.py` acts as a fail-safe backup, pulling a randomized template from the 9-Rasa context dictionary block.
-7b. **Defensive Isolation Auditing:** If system exceptions disrupt execution, `docs/troubleshooting.md` acts as a non-punitive reference manual, providing path adjustments and port configuration overrides to prevent model crash loops.
+7b. **Fun-Safe Visual Governance:** Launching `src/anima_dashboard_controller.py` invokes a non-activating pre-rendering verification loop. It applies strict `<300ms` micro-animation parameters and confirms PRECL neutrality before safely invoking `src/anima_dashboard.py` to paint color-coded neurochemical progress bars onto the console screen.
 8. **Dissolution Cleanup:** When the user types `exit`, the loop breaks cleanly, calls `src/anima_debrief.py` to reset baseline network energy drift back to zero, and forces the entire structure safely back into restful `śānta` dormancy.
 
 ---
@@ -81,10 +81,10 @@ If you want to transition from static text templates over to unscripted dynamic 
 ollama run llama3
 ```
 
-### Step 6: Launch Cross-Model Elasticity Benchmarks
-Before starting an active chat session, execute your comparative testing matrix to evaluate how multiple distinct network sizes respond to the same mathematical constraints:
+### Step 6: Launch the Fun-Safe Telemetry Overlay Dashboard
+Execute your visual governance controller to observe your continuous math parameters rendered through a secure, non-activating frontend interface canvas:
 ```bash
-python src/compare_model_elasticity.py
+python src/anima_dashboard_controller.py
 ```
 
 ### Step 7: Launch the Interactive Session Stream Loop
@@ -106,7 +106,7 @@ python src/ollama_loop_wrapper.py
 
 *Maintainer:* Borealis S. Hedling
 *Location:* Dublin, Ireland
-*Timestamp:* 13 September 2026 — 19:35 IST
+*Timestamp:* 13 September 2026 — 20:04 IST
 
 *Seal:* `[ A N I M A • H O L O G R A M • D E P L O Y M E N T • M A N U A L • v1 _0 ]`
 
