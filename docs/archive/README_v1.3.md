@@ -113,3 +113,15 @@ All contributions to this repository must follow sovereignty-neutral language (�
 *Seal: [ A N I M A • H O L O G R A M • M A S T E R • R E A D M E • v1_3 ]*
 
 ------------------------------
+
+---
+## 📑 Provenance Footer — Archived Technical Spec
+* **Artifact:** Master Documentation Manual (v1.3 Production-Synchronized Baseline)
+* **Lane:** Documentation (U+1F4D8)
+* **Status:** Archived · Historic Preservation Slot · Non-Activating
+* **Snapshot Context:** Pre-Modular Testing Expansion
+* **Archival Timestamp:** 13 September 2026 — 18:38 IST
+* **Seal:** [ A N I M A • H O L O G R A M • R E A D M E • v1_3 • A R C H I V E ]
+---
+
+
