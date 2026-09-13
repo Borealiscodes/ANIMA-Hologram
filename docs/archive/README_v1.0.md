@@ -129,3 +129,15 @@ This project is an open-source, non-commercial derivative work. It is strictly d
 * For formal commercial inquiries, contact: `2026.stell@gmail.com`
 
 ---
+
+
+---
+## 📑 Provenance Footer — Archived Technical Artifact
+* **Artifact:** Master Documentation Manual (v1.0 Baseline)
+* **Lane:** Documentation (U+1F4D8)
+* **Status:** Archived · Historic Preservation Slot · Non-Activating
+* **Snapshot Context:** Pre-Visual Grammar System Blueprint
+* **Archival Timestamp:** 13 September 2026 — 14:26 IST
+* **Seal:** [ A N I M A • H O L O G R A M • R E A D M E • v1_0 • A R C H I V E ]
+---
+
