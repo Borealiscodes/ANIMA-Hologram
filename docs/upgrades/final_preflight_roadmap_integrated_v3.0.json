@@ -1,0 +1,164 @@
+# 📦 ANIMA‑HOLOGRAM Integrated Roadmap (v3.0) — JSON Edition
+
+`json
+{
+  "document_id": "ANIMA-ROADMAP-INTEGRATED-v3.0",
+  "version": "3.0",
+  "repositorypath": "Anima-Hologram/docs/upgrades/finalpreflightroadmapintegrated_v3.0.md",
+  "altitude": "A6",
+  "license": "MIT",
+  "governance": {
+    "ts_equilibrium": "0",
+    "santa_containment": true,
+    "adapter_integration": true,
+    "santa_checkpoints": true
+  },
+  "stages": [
+    {
+      "stage": 1,
+      "name": "Core Math Engine",
+      "path": "src/math_engine.py",
+      "purpose": "Cold-core 9x9 complex lattice substrate",
+      "includes": [
+        "complex_lattice",
+        "laplacian_relaxation",
+        "spectral_microkernel",
+        "holonomyboundedevolution",
+        "cptpsafetransforms",
+        "tszerolock"
+      ],
+      "adapter_active": false,
+      "santa_checkpoint": true
+    },
+    {
+      "stage": 2,
+      "name": "Conductor Connector",
+      "path": "src/anima_core.py",
+      "purpose": "Altitude routing + adapter.py firewall",
+      "includes": [
+        "adapter_integration",
+        "hsafeclipping_valves",
+        "allostatic_valve",
+        "vfetensionbreaker",
+        "altitudeseparationlogic"
+      ],
+      "adapter_active": true,
+      "santa_checkpoint": true
+    },
+    {
+      "stage": 3,
+      "name": "Persistence Vault",
+      "path": "src/persistence.py",
+      "purpose": "Complex128 BLOB storage",
+      "includes": [
+        "sqliteappendonly_schema",
+        "blob_encoder",
+        "blob_decoder",
+        "algebraicmergelogic",
+        "adaptersafewrite_gates"
+      ],
+      "adapter_active": true,
+      "santa_checkpoint": true
+    },
+    {
+      "stage": 4,
+      "name": "Terminal HUD Grammar",
+      "path": "config/visual_grammar.json",
+      "purpose": "ASCII telemetry + UI grammar",
+      "includes": [
+        "asciitelemetryrings",
+        "sparsemandalamode",
+        "densemandalamode",
+        "fantasyskinmapping",
+        "adaptersafeprojection_rules"
+      ],
+      "adapter_active": true,
+      "santa_checkpoint": true
+    },
+    {
+      "stage": 5,
+      "name": "Sensory Museum Topology",
+      "path": "docs/spec/sensorymuseumtopology_v1.md",
+      "purpose": "Persona-free sensory interaction",
+      "includes": [
+        "dualaxissliders",
+        "texture_hints",
+        "exhibition_topology",
+        "adaptersafesensory_routing"
+      ],
+      "adapter_active": true,
+      "santa_checkpoint": true
+    },
+    {
+      "stage": 6,
+      "name": "VR Transduction Layer",
+      "path": "src/vr_transduction.py",
+      "purpose": "Vulkan + Vive routing",
+      "includes": [
+        "vulkan_viewports",
+        "viveactuatorrouting",
+        "posture_geometry",
+        "mechanicalclippingvalves",
+        "adaptersafetransduction"
+      ],
+      "adapter_active": true,
+      "santa_checkpoint": true
+    },
+    {
+      "stage": 7,
+      "name": "Fantasy Engine Skeleton",
+      "path": "src/fantasycoresolver.py",
+      "purpose": "Narrative math substrate (no ecology)",
+      "includes": [
+        "phaseoffsetwheels",
+        "tension_crossings",
+        "laplacian_bleed",
+        "downstreamprojectiongrammar",
+        "adaptersafefantasy_routing"
+      ],
+      "adapter_active": true,
+      "santa_checkpoint": true
+    },
+    {
+      "stage": 8,
+      "name": "Rasa-Physics Engine",
+      "path": "src/rasaphysicsengine.py",
+      "purpose": "Emotional phase-space substrate",
+      "includes": [
+        "rasaeigenvaluemapping",
+        "continuity_derivatives",
+        "drift_accumulation",
+        "allostatic_flattening",
+        "cptpemotionalevolution",
+        "adaptersafeemotional_routing"
+      ],
+      "adapter_active": true,
+      "santa_checkpoint": true
+    },
+    {
+      "stage": 9,
+      "name": "Unified Phase Solver",
+      "path": "src/unifiedphasesolver.py",
+      "purpose": "Unified interface for all substrates",
+      "includes": [
+        "unifiedadapterhooks",
+        "sharedlaplacianroutines",
+        "sharedtensionlogic",
+        "sharedblobregistry"
+      ],
+      "adapter_active": true,
+      "santa_checkpoint": true,
+      "optional": true
+    }
+  ],
+  "provenance": {
+    "maintainer": "Borealis S. Hedling",
+    "location": "Dublin, Ireland",
+    "timestamp": "22 September 2026 — 22:51 IST",
+    "seal": "INTEGRATED • ROADMAP • SANTA • SEALED"
+  }
+}
+`
+
+---
+
