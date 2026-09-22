@@ -71,3 +71,21 @@
     "seal": "[ A N I M A • H O L O G R A M • V I S U A L • G R A M M A R • v1_0 ]"
   }
 }
+---
+Artifact: visual_grammar_6D.json (Legacy Archive)
+Altitude: A6 • Governance Archive Layer • Non-Active
+Mode: Archival • Non-Executing • Historical Preservation
+
+Purpose:
+  Preserve the legacy 6D visual grammar as a historical reference while removing 
+  it from the active grammar path. The 6D glyph schema relied on unstable emoji 
+  glyphs and pre-haptics substrate semantics incompatible with the Unicode-safe 
+  canonical grammar v2.0. Archival prevents drift, altitude bleed, and runtime 
+  conflicts across production roadmap v3.0.
+
+Maintainer: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Location: Dublin, Ireland
+Timestamp: 22 September 2026 — 23:38 IST
+Seal: [ A R C H I V E • L E G A C Y • 6 D ]
+---
