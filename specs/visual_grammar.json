@@ -1,0 +1,122 @@
+{
+  "altitude": "A2–A8",
+
+  "lanes": {
+    "architecture": "⧈",
+    "governance": "⛉",
+    "geometry": "△",
+    "membrane": "⭕",
+    "documentation": "✎",
+    "ingestion": "≋",
+    "haptics": "⋄"
+  },
+
+  "membrane": {
+    "cross": "⭕",
+    "firewall_active": "⧉",
+    "neutral": "◦"
+  },
+
+  "sovereignty": {
+    "altitude_governance": "⛉",
+    "solver": "⟁"
+  },
+
+  "arrows": {
+    "transform": "↦",
+    "flow": "⇢",
+    "ingest": "⤇",
+    "emit": "⤏"
+  },
+
+  "semantic_primitives": {
+    "intensity_I": "▣",
+    "sharpness_S": "▤",
+    "texture_X": "▥",
+    "envelope_Theta": "▨"
+  },
+
+  "haptics_output": {
+    "amplitude": "∿",
+    "frequency": "≔",
+    "duration": "∷",
+    "pattern": "⌇",
+    "intensity": "◍"
+  },
+
+  "runtime_families": {
+    "unity": "▧",
+    "unreal": "▨",
+    "openxr": "▩",
+    "visionos": "◇",
+    "android": "◆",
+    "ios": "◻",
+    "dualsense": "◫",
+    "steamvr": "◪",
+    "webxr": "◈"
+  },
+
+  "adapter": {
+    "firewall": "⧉",
+    "resolver_hook": "⟜"
+  },
+
+  "rasa_physics": {
+    "shanta_equilibrium": "〰",
+    "raudra": "⚡",
+    "karuna": "❄",
+    "hasya": "✶",
+    "bhaya": "⚚",
+    "bibhatsa": "☣",
+    "adbhuta": "✧"
+  },
+
+  "fantasy_engine": {
+    "phase_wheel": "⟳",
+    "tension_crossing": "⟍"
+  },
+
+  "vr_transduction": {
+    "posture_geometry": "𐄷",
+    "vive_actuator": "⧗",
+    "vulkan_viewport": "⌼"
+  },
+
+  "sensory_museum": {
+    "slider_axis": "⧁",
+    "texture_node": "⌇"
+  },
+
+  "persistence_vault": {
+    "blob_cell": "◒",
+    "continuity_hash": "⧓"
+  },
+
+  "conductor_layer": {
+    "h_safe_valve": "⛨",
+    "vfe_breaker": "⛯"
+  },
+
+  "unified_solver": {
+    "adapter_hook": "⟜",
+    "laplacian_bleed": "⟍"
+  }
+}
+
+---
+Artifact: visual_grammar.json (Canonical Unicode-Safe Grammar)
+Altitude: A6 • Structural Governance Layer • Drift-Neutral Specification
+Mode: Canonical • Non-Activating • Runtime-Stable
+
+Purpose:
+  Provide the single canonical visual grammar for all substrate, runtime, 
+  adapter, rasa, fantasy, VR/XR, conductor, and solver systems. This grammar 
+  replaces the legacy 6D schema and resolves all Unicode, altitude, membrane, 
+  and substrate collisions identified in the v2.0 drift analysis.
+
+Maintainer: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Location: Dublin, Ireland
+Timestamp: 22 September 2026 — 23:41 IST
+Seal: [ V I S U A L • G R A M M A R • C A N O N I C A L ]
+---
